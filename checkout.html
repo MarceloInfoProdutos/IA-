@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finalize Sua Inscrição no Curso IA para Iniciantes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Estilos básicos para a página de checkout */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f7;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 30px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 2.8em;
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .order-summary {
+            background-color: #e3f2fd;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            border-left: 5px solid #2196F3;
+        }
+
+        .order-summary p {
+            margin: 8px 0;
+            font-size: 1.1em;
+        }
+
+        .order-summary strong {
+            color: #2c3e50;
+        }
+
+        .order-summary .price {
+            font-size: 1.6em;
+            font-weight: bold;
+            color: #4CAF50;
+            margin-top: 15px;
+        }
+
+        .form-section h2 {
+            font-size: 1.8em;
+            color: #2c3e50;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #555;
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="email"],
+        .form-group input[type="tel"],
+        .form-group select {
+            width: calc(100% - 20px);
+            padding: 12px 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+            box-sizing: border-box; /* Garante que padding não aumente a largura total */
+        }
+
+        .form-group input[type="text"]:focus,
+        .form-group input[type="email"]:focus,
+        .form-group input[type="tel"]:focus,
+        .form-group select:focus {
+            border-color: #4CAF50;
+            outline: none;
+            box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+        }
+
+        .payment-options .radio-group {
+            margin-bottom: 15px;
+        }
+
+        .payment-options .radio-group label {
+            display: inline-block;
+            margin-right: 20px;
+            font-weight: normal;
+        }
+
+        .payment-details {
+            border: 1px solid #eee;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 15px;
+            background-color: #f9f9f9;
+        }
+
+        .payment-details p {
+            margin-bottom: 15px;
+            font-size: 0.95em;
+            color: #666;
+        }
+
+        .cta-button {
+            display: block;
+            width: 100%;
+            padding: 18px;
+            background-color: #4CAF50;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1.4em;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            margin-top: 30px;
+        }
+
+        .cta-button:hover {
+            background-color: #43A047;
+            transform: translateY(-2px);
+        }
+
+        .security-info {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #777;
+        }
+
+        .security-info img {
+            max-width: 100px;
+            margin: 0 10px;
+            vertical-align: middle;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.85em;
+            color: #888;
+        }
+
+        footer a {
+            color: #2196F3;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsividade básica */
+        @media (max-width: 600px) {
+            .container {
+                margin: 20px auto;
+                padding: 15px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+            .cta-button {
+                font-size: 1.2em;
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Sua Jornada no Mundo da IA Está a Um Passo!</h1>
+
+        <div class="order-summary">
+            <p><strong>Curso:</strong> IA para Iniciantes: Descomplicando o Futuro</p>
+            <p><strong>O Que Você Receberá:</strong> Acesso Vitalício a todos os módulos, materiais de apoio, e os bônus exclusivos.</p>
+            <p><strong>Garantia:</strong> [Número] Dias de Garantia Incondicional.</p>
+            <p class="price">Preço: R$ [Preço Promocional com Destaque] (ou 12x de R$ [Valor da Parcela])</p>
+        </div>
+
+        <form action="[URL_PARA_PROCESSAMENTO_DE_PAGAMENTO]" method="POST">
+            <div class="form-section">
+                <h2>1. Preencha Seus Dados:</h2>
+                <div class="form-group">
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="nome" name="nome" required placeholder="Seu nome completo">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail (este será seu login):</label>
+                    <input type="email" id="email" name="email" required placeholder="seuemail@exemplo.com">
+                </div>
+                <div class="form-group">
+                    <label for="confirm-email">Confirmar E-mail:</label>
+                    <input type="email" id="confirm-email" name="confirm_email" required placeholder="Confirme seu email">
+                </div>
+                <div class="form-group">
+                    <label for="telefone">Telefone (com DDD):</label>
+                    <input type="tel" id="telefone" name="telefone" required placeholder="(XX) XXXXX-XXXX">
+                </div>
+            </div>
+
+            <div class="form-section">
+                <h2>2. Selecione Sua Forma de Pagamento Segura:</h2>
+                <div class="payment-options">
+                    <div class="radio-group">
+                        <input type="radio" id="credito" name="payment_method" value="credit_card" checked>
+                        <label for="credito">Cartão de Crédito</label>
+                    </div>
+                    <div class="payment-details" id="credit-card-details">
+                        <div class="form-group">
+                            <label for="numero-cartao">Número do Cartão:</label>
+                            <input type="text" id="numero-cartao" name="numero_cartao" placeholder="XXXX XXXX XXXX XXXX">
+                        </div>
+                        <div class="form-group">
+                            <label for="nome-cartao">Nome no Cartão:</label>
+                            <input type="text" id="nome-cartao" name="nome_cartao" placeholder="Como no cartão">
+                        </div>
+                        <div class="form-group" style="display: flex; gap: 15px;">
+                            <div style="flex: 1;">
+                                <label for="validade">Validade (MM/AA):</label>
+                                <input type="text" id="validade" name="validade" placeholder="MM/AA">
+                            </div>
+                            <div style="flex: 1;">
+                                <label for="cvv">CVV:</label>
+                                <input type="text" id="cvv" name="cvv" placeholder="123">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="parcelas">Parcelas:</label>
+                            <select id="parcelas" name="parcelas">
+                                <option value="1">1x de R$ [Valor]</option>
+                                <option value="2">2x de R$ [Valor]</option>
+                                <option value="3">3x de R$ [Valor]</option>
+                                <option value="12">12x de R$ [Valor]</option>
+                            </select>
+                        </div>
+                        <p style="font-size: 0.8em; text-align: center; margin-top: 15px;">Bandeiras aceitas: Visa, Mastercard, Elo, American Express, Hipercard.</p>
+                        <img src="https://via.placeholder.com/200x30/CCCCCC/FFFFFF?text=Bandeiras" alt="Bandeiras de cartão de crédito" style="display: block; margin: 10px auto;">
+                    </div>
+
+                    <div class="radio-group">
+                        <input type="radio" id="pix" name="payment_method" value="pix">
+                        <label for="pix">PIX</label>
+                    </div>
+                    <div class="payment-details" id="pix-details" style="display: none;">
+                        <p>Pague em instantes com PIX e tenha acesso imediato ao curso!</p>
+                        <p style="text-align: center;">Um código QR Code será gerado após a finalização da compra.</p>
+                    </div>
+
+                    <div class="radio-group">
+                        <input type="radio" id="boleto" name="payment_method" value="boleto">
+                        <label for="boleto">Boleto Bancário</label>
+                    </div>
+                    <div class="payment-details" id="boleto-details" style="display: none;">
+                        <p>Pagamento via boleto. A liberação do curso pode levar até 3 dias úteis após a confirmação do pagamento.</p>
+                        <p style="text-align: center;">O boleto será gerado após a finalização da compra e enviado para o seu e-mail.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-section">
+                <h2>3. Confirme Sua Inscrição:</h2>
+                <p style="text-align: center; margin-bottom: 25px; font-size: 0.95em;">Ao clicar em "Finalizar Inscrição", você concorda com nossos <a href="#" style="color: #2196F3;">Termos de Uso</a> e <a href="#" style="color: #2196F3;">Política de Privacidade</a>.</p>
+                <button type="submit" class="cta-button">🔒 FINALIZAR INSCRIÇÃO AGORA!</button>
+            </div>
+        </form>
+
+        <div class="security-info">
+            <p>Sua compra 100% Segura! Ambiente criptografado e garantia incondicional.</p>
+            <img src="https://via.placeholder.com/60x60/4CAF50/FFFFFF?text=SSL" alt="Selo SSL">
+            <img src="https://via.placeholder.com/60x60/2196F3/FFFFFF?text=Garantia" alt="Selo de Garantia">
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 [Seu Nome/Nome da Sua Empresa]. Todos os direitos reservados.</p>
+        <p>
+            <a href="#">Política de Privacidade</a> |
+            <a href="#">Termos de Uso</a> |
+            <a href="index.html">Voltar à Página de Vendas</a>
+        </p>
+    </footer>
+
+    <script>
+        // Script básico para mostrar/esconder detalhes de pagamento
+        document.addEventListener('DOMContentLoaded', function() {
+            const paymentMethods = document.querySelectorAll('input[name="payment_method"]');
+            const cardDetails = document.getElementById('credit-card-details');
+            const pixDetails = document.getElementById('pix-details');
+            const boletoDetails = document.getElementById('boleto-details');
+
+            function showHidePaymentDetails() {
+                cardDetails.style.display = 'none';
+                pixDetails.style.display = 'none';
+                boletoDetails.style.display = 'none';
+
+                if (document.getElementById('credito').checked) {
+                    cardDetails.style.display = 'block';
+                } else if (document.getElementById('pix').checked) {
+                    pixDetails.style.display = 'block';
+                } else if (document.getElementById('boleto').checked) {
+                    boletoDetails.style.display = 'block';
+                }
+            }
+
+            paymentMethods.forEach(method => {
+                method.addEventListener('change', showHidePaymentDetails);
+            });
+
+            // Exibir os detalhes do método de pagamento padrão ao carregar
+            showHidePaymentDetails();
+        });
+    </script>
+</body>
+</html>
